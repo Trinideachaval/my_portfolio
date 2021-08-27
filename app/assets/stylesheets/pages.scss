@@ -1,3 +1,41 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+// NAVBAR styling, ask how to create a component and then import it and where
+
+.navbar {
+  padding: 0px;
+  width: 100vh;
+  border: 1.5px solid #E5E5E5;
+  margin: 0px;
+  display: flex;
+  text-align: center;
+  -webkit-transform-origin: left top;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
+  position: fixed;
+}
+
+.navbar_sections {
+  color: black;
+  list-style-type: none;
+  width: 25%;
+  height: 1.5rem;
+  padding-top: 0.5rem;
+  border-right: 1px solid #E5E5E5;
+    &:hover {
+    background-color: #F4F1BB
+  }
+}
+
+.navbar_links {
+  text-decoration: none;
+  color: black;
+   &:hover {
+  background-color: #F4F1BB;
+ }
+}
+
+//finished NAVBAR styling
+
+
